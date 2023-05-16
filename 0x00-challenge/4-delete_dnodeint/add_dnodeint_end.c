@@ -10,15 +10,6 @@
  *
  * Return: A pointer to the new element
  */
-
-typedef struct dlistint_s
-{
-    int n;
-    struct dlistint_s *prev;
-    struct dlistint_s *next;
-} dlistint_t;
-
-
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new;
