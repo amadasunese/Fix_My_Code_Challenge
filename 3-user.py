@@ -97,8 +97,5 @@ if __name__ == '__main__':
         print("is_valid_password should return False if compared with an integer")
 
     if user_2.is_valid_password("No pwd"):
-<<<<<<< HEAD
         print("is_valid_password should return False if no password set")
-=======
         print("is_valid_password should return False if no password is set before")
->>>>>>> eabdea60f3cd594ab92cde091c20e57f250a48a9
